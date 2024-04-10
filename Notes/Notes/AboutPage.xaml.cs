@@ -8,9 +8,8 @@ public partial class AboutPage : ContentPage
 	}
 
 
-	private void LearnMore_Clicked(object sender, EventArgs e)
-	{
-
-
-	}
+    private async void LearnMore_Clicked(object sender, EventArgs e)
+    {
+        await Launcher.OpenAsync("https://www.google.com");
+    }
 }
